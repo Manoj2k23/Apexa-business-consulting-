@@ -8,7 +8,7 @@ export default function ClientLogos() {
     <section className="py-12 bg-white overflow-hidden border-b">
       <div className="container mx-auto px-4">
         <div className="relative">
-          <div className="flex animate-scroll space-x-12 whitespace-nowrap items-center">
+          <div className="flex  animate-scroll duration-1000 space-x-12 whitespace-nowrap items-center">
             {[...logos, ...logos].map((logo, index) => (
               <div key={index} className="flex-shrink-0">
                 <Image

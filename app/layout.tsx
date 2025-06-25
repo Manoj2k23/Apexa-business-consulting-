@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
-
+import { Toaster } from '@/components/ui/sonner'
+ 
 export const metadata: Metadata = {
   title: 'Business Consulting Solutions',
   description: 'Empowering businesses with strategic consulting, operational excellence, and digital transformation services.',
@@ -16,6 +17,8 @@ export default function RootLayout({
       <body>
         <div>
           {children}
+                  <Toaster />
+
         </div>
       </body>
     </html>

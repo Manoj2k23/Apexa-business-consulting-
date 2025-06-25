@@ -34,7 +34,7 @@ export default function Header() {
       {/* Regular Header */}
       <header className="bg-[#E8E5F2]  border-b border-gray-200 lg:pt-10 pt-16 ">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between py-4">
+          <div className="flex items-center justify-between py-4 px-6 md:px-0">
             <Link href="/" className="text-3xl font-bold text-blue-600">
                  <Image
       src="/apexa-logo.png"  
